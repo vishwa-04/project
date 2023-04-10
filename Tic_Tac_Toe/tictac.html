@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictac.css">
+    <script src="/tictac.js"></script>
+</head>
+<body>
+    <center><h1>Tic Tac Toe</h1></center>
+    <span id="vishva_x" class="player">X's Turn</span>
+    <span id="vishva_o" class="player">O's Turn</span>
+    <table id="myTable">
+        <tr>
+            <td id="a11" onclick="click1() " ></td>
+            <td id="a22" onclick="click2() " ></td>
+            <td id="a33" onclick="click3() " ></td>
+        </tr>
+        <tr>
+            <td id="a44" onclick="click4() " ></td>
+            <td id="a55" onclick="click5() " ></td>
+            <td id="a66" onclick="click6() " ></td>
+        </tr>
+        <tr>
+            <td id="a77" onclick="click7() " ></td>
+            <td id="a88" onclick="click8() " ></td>
+            <td id="a99" onclick="click9() " ></td>
+        </tr>
+    </table>
+    <input type="reset" value="reset" onclick="reset()" id="reset">
+</body>
+</html>

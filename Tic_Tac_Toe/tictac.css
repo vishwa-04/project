@@ -1,0 +1,32 @@
+#myTable,tr,td{
+    border: 2px solid black;
+    margin: 8% 0px 0px 38%;
+    padding: 20px;
+    border-collapse: collapse;
+    background-color: rgb(156, 150, 172);
+}
+h1{
+    color: rgb(95, 89, 111);
+}
+td{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.disabled{
+    pointer-events: none;
+}
+#vishva_x{
+    color: black;
+    margin-right:50%;
+    margin-left: 15%;
+}
+#vishva_o{
+    color: black;
+
+
+}
+span{
+    font-size: 30px;
+}
